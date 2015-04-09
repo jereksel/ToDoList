@@ -31,7 +31,7 @@ public class EntryAdapter extends ArrayAdapter<Entry>
 
 	public EntryAdapter(Context context, int layout, ArrayList<Entry> entries)
 	{
-		super(context, layout);
+		super(context, layout, entries);
 		this.context = context;
 		this.layout = layout;
 		this.entries = entries;
